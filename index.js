@@ -16,7 +16,7 @@ app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 
 // Connect to MongoDB
-mongoose.connect("mongodb://0.0.0.0:27017/skinyou", {
+mongoose.connect("mongodb+srv://skinyou:skinyou@cluster0.oniav8n.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
